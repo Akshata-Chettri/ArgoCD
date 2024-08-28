@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/Akshata-Chettri/ArgoCD.git'
-    path: manifest
+    path: ./manifest
     targetRevision: main	#HEAD
   destination:
     server: 'https://kubernetes.default.svc'
