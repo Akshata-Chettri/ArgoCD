@@ -4,7 +4,7 @@ metadata:
   name: argocd-service
 spec:
   selector:
-	app: mytomcat
+	app.kubernetes.io/name: mytomcat
   ports:
     - protocol: TCP
       port: 8080
